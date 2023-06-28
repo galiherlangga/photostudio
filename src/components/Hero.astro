@@ -1,0 +1,26 @@
+<div class="h-[80vh] hero px-20">
+    <h1 class="text-gray-300 text-6xl pt-96 mb-10">Capturing Life’s Moments in Every Frame</h1>
+    <a href="#gallery" class="text-gray-300 bg-slate-700 px-3 py-3 rounded-lg">Explore Galery</a>
+</div>
+
+<style>
+    .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80vh;
+        background-color: rgba(0,0,0,0.5);
+        z-index: -1;
+    }
+
+    .hero {
+        /* position: relative; */
+        background-image: url("/img/landscape.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 80vh;
+        opacity: 0.7;
+    }
+</style>
